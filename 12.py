@@ -1,7 +1,3 @@
-# property triangle numbers:
-# Xn = 0.5n(n+1)
-from functools import reduce
-
 def factorize(num):
     factors = [1, num]
     for i in range(2, int(num**0.5)+ 1):
