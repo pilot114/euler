@@ -1,4 +1,14 @@
-max_period = 0
-for d in range(1,100):
-	number = str(1/d)[3:]
-	print(1/d)
+cicles = []
+for d in range(1,1000):
+	decimal = str(1/d)[2:]
+
+	print(decimal)
+	# race!
+	checkpoints = []
+	for x in range(, int(len(decimal)/2)):
+		turtle = decimal[x]
+		rabbit = decimal[x+x]
+		if turtle == rabbit:
+			checkpoints.append(x)
+	if checkpoints:
+		print(checkpoints)
